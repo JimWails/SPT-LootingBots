@@ -9,14 +9,14 @@ using EFT.InventoryLogic;
 
 using UnityEngine;
 
-using GridClass = GClass2318;
-using GridClassEx = GClass2321;
-using GridManagerClass = GClass2619;
-using SortResultStruct = GStruct375<GClass2619>;
-using GridItemClass =  GClass2326;
-using ItemAddressExClass = GClass2580;
-using SortErrorClass = GClass3029;
-using GridCacheClass = GClass1281;
+using GridClass = StashGrid;
+using GridClassEx = GridContainer;
+using GridManagerClass = GOperationResult16;
+using SortResultStruct = SOperationResult12<GOperationResult16>;
+using GridItemClass = GItem10;
+using ItemAddressExClass = GridItemAddress;
+using SortErrorClass = GInventoryError18;
+using GridCacheClass = GClass1390;
 
 namespace LootingBots.Patch.Util
 {
